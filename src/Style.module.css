@@ -1,0 +1,40 @@
+.listNameMovieCss {
+    color: white;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.imageMovieCss {
+    border-radius: 15px;
+    background-color: aqua;
+    width: 230px;
+    height: 345px;
+}
+
+.movieGridCss {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.titleNetflixCss {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
+        0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+@media(max-widht:560px) {
+
+    .movieGridCss {
+        grid-template-columns: 100%;
+    }
+    imageMovieCss {
+        width: 90%;
+        height: auto;
+    }
+
+    
+}

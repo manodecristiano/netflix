@@ -26,15 +26,23 @@
         0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
-@media(max-widht:560px) {
+@media(max-width:560px) {
 
     .movieGridCss {
         grid-template-columns: 100%;
     }
-    imageMovieCss {
+
+    .imageMovieCss {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
+            0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
         width: 90%;
         height: auto;
     }
 
-    
+    .listNameMovieCss {
+
+        font-size: 1.5rem;
+    }
+
+
 }
